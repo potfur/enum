@@ -1,0 +1,25 @@
+{
+	"name": "enum/enum",
+	"version": "0.5",
+	"description": "enum",
+	"keywords": ["enum", "enumerable"],
+	"type": "enum",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Michal Wachowski",
+			"email": "wachowski.michal@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.4"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "3.7.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"Enum\\": ""
+		}
+	}
+}
