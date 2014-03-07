@@ -1,6 +1,6 @@
 {
-	"name": "enum/enum",
-	"version": "0.5",
+	"name": "common/enum",
+	"version": "1.0",
 	"description": "enum",
 	"keywords": ["enum", "enumerable"],
 	"type": "enum",
@@ -19,7 +19,7 @@
 	},
 	"autoload": {
 		"psr-0": {
-			"Enum\\": ""
+			"Common\\Enum\\": ""
 		}
 	}
 }

@@ -1,5 +1,5 @@
 <?php
-namespace Enum;
+namespace Common\Enum;
 
 class EnumSampleEmpty extends Enum {
 
@@ -15,7 +15,7 @@ class EnumSample extends Enum
 class EnumTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @expectedException \Enum\EnumException
+     * @expectedException \Common\Enum\EnumException
      * @expectedExceptionMessage Enum does not define any values
      */
     public function testEmpty()
@@ -56,7 +56,7 @@ class EnumTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException \Enum\EnumException
+     * @expectedException \Common\Enum\EnumException
      * @expectedExceptionMessage Invalid value
      */
     public function testInvalidInstance()
@@ -100,7 +100,7 @@ class EnumTest extends \PHPUnit_Framework_TestCase
     public function testNotEqualByInstance()
     {
         $enum = new EnumSample('FOO');
-        $this->assertFalse($enum->equals($this->getMock('\Enum\EnumInterface')));
+        $this->assertFalse($enum->equals($this->getMock('\Common\Enum\EnumInterface')));
     }
 
     public function testNotEqualByValue()

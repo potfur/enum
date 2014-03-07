@@ -9,13 +9,13 @@
 * file that was distributed with this source code.
 */
 
-namespace Enum;
+namespace Common\Enum;
 
 /**
- * Class Enum
+ * Enumerable
  *
  * @author  Michal Wachowski <wachowski.michal@gmail.com>
- * @package Enum
+ * @package Common\Enum
  */
 abstract class Enum implements EnumInterface
 {

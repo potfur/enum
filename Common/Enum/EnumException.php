@@ -9,12 +9,13 @@
 * file that was distributed with this source code.
 */
 
-namespace Enum;
+namespace Common\Enum;
 
 /**
  * Exception thrown by enums
  *
- * @package Enum
+ * @author  Michal Wachowski <wachowski.michal@gmail.com>
+ * @package Common\Enum
  */
 class EnumException extends \DomainException {
 

@@ -9,9 +9,14 @@
 * file that was distributed with this source code.
 */
 
-namespace Enum;
+namespace Common\Enum;
 
-
+/**
+ * Enum interface
+ *
+ * @author  Michal Wachowski <wachowski.michal@gmail.com>
+ * @package Common\Enum
+ */
 interface EnumInterface
 {
 
